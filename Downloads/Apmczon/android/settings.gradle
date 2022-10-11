@@ -1,0 +1,21 @@
+rootProject.name = 'Apmczon'
+include ':react-native-pg-react-native-sdk'
+project(':react-native-pg-react-native-sdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pg-react-native-sdk/android')
+include ':react-native-signature-capture'
+project(':react-native-signature-capture').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-signature-capture/android')
+include ':rn-fetch-blob'
+project(':rn-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/rn-fetch-blob/android')
+include ':react-native-razorpay'
+project(':react-native-razorpay').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-razorpay/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':react-native-device-id'
+project(':react-native-device-id').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-id/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-maps'
+project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/lib/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':rangeseekbar'
+project(':rangeseekbar').projectDir = new File(rootProject.projectDir, '../node_modules/@jesster2k10/react-native-range-slider/android/crystalrangeseekbar')
+include ':app'

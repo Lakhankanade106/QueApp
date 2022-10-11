@@ -1,0 +1,58 @@
+{
+  "name": "Apmczon",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/progress-bar-android": "^1.0.4",
+    "@react-native-community/progress-view": "^1.2.4",
+    "@react-native-community/slider": "^3.0.3",
+    "paytm_allinone_react-native": "^1.0.9",
+    "postinstall-postinstall": "^2.1.0",
+    "pubnub": "^4.29.11",
+    "pubnub-react": "^2.1.0",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-community-geolocation": "0.0.9",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-device-id": "^1.2.0",
+    "react-native-device-info": "^7.3.1",
+    "react-native-document-picker": "^4.1.0",
+    "react-native-geolocation-service": "^5.1.1",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-image-picker": "^3.0.1",
+    "react-native-image-slider-box": "^1.0.12",
+    "react-native-maps": "^0.26.1",
+    "react-native-maps-directions": "^1.8.0",
+    "react-native-pdf": "^6.3.0",
+    "react-native-pg-react-native-sdk": "^2.1.6",
+    "react-native-razorpay": "^2.2.2",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-router-flux": "^4.2.0",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.15.0",
+    "react-native-signature-capture": "^0.4.11",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.15.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
